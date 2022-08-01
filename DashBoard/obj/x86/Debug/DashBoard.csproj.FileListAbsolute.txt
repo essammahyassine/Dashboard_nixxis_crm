@@ -1,0 +1,14 @@
+C:\Users\Administrateur\Documents\Visual Studio 2010\Projects\DashBoard\DashBoard\bin\Debug\DashBoard.exe
+C:\Users\Administrateur\Documents\Visual Studio 2010\Projects\DashBoard\DashBoard\bin\Debug\DashBoard.pdb
+C:\Users\Administrateur\Documents\Visual Studio 2010\Projects\DashBoard\DashBoard\obj\x86\Debug\DashBoard.Acceuil.resources
+C:\Users\Administrateur\Documents\Visual Studio 2010\Projects\DashBoard\DashBoard\obj\x86\Debug\DashBoard.addbriefing.resources
+C:\Users\Administrateur\Documents\Visual Studio 2010\Projects\DashBoard\DashBoard\obj\x86\Debug\DashBoard.Breifing.resources
+C:\Users\Administrateur\Documents\Visual Studio 2010\Projects\DashBoard\DashBoard\obj\x86\Debug\DashBoard.Production.resources
+C:\Users\Administrateur\Documents\Visual Studio 2010\Projects\DashBoard\DashBoard\obj\x86\Debug\DashBoard.Infos.resources
+C:\Users\Administrateur\Documents\Visual Studio 2010\Projects\DashBoard\DashBoard\obj\x86\Debug\DashBoard.Mes_taches.resources
+C:\Users\Administrateur\Documents\Visual Studio 2010\Projects\DashBoard\DashBoard\obj\x86\Debug\DashBoard.Properties.Resources.resources
+C:\Users\Administrateur\Documents\Visual Studio 2010\Projects\DashBoard\DashBoard\obj\x86\Debug\DashBoard.Taches_OKcs.resources
+C:\Users\Administrateur\Documents\Visual Studio 2010\Projects\DashBoard\DashBoard\obj\x86\Debug\DashBoard.csproj.GenerateResource.Cache
+C:\Users\Administrateur\Documents\Visual Studio 2010\Projects\DashBoard\DashBoard\obj\x86\Debug\DashBoard.exe
+C:\Users\Administrateur\Documents\Visual Studio 2010\Projects\DashBoard\DashBoard\obj\x86\Debug\DashBoard.pdb
+C:\Users\Administrateur\Documents\Visual Studio 2010\Projects\DashBoard\DashBoard\obj\x86\Debug\DashBoard.csprojResolveAssemblyReference.cache

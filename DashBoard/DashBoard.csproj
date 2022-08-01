@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3C50E9A2-2309-46EB-A745-5B863641C4FE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DashBoard</RootNamespace>
+    <AssemblyName>DashBoard</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ExcelLibrary">
+      <HintPath>..\..\..\..\..\Desktop\ExcelLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Acceuil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Acceuil.Designer.cs">
+      <DependentUpon>Acceuil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="addbriefing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addbriefing.Designer.cs">
+      <DependentUpon>addbriefing.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Breifing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Breifing.Designer.cs">
+      <DependentUpon>Breifing.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ComboBoxItem.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mes_taches.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mes_taches.Designer.cs">
+      <DependentUpon>Mes_taches.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Taches_OKcs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Taches_OKcs.Designer.cs">
+      <DependentUpon>Taches_OKcs.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Acceuil.resx">
+      <DependentUpon>Acceuil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addbriefing.resx">
+      <DependentUpon>addbriefing.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Breifing.resx">
+      <DependentUpon>Breifing.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mes_taches.resx">
+      <DependentUpon>Mes_taches.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Taches_OKcs.resx">
+      <DependentUpon>Taches_OKcs.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FontAwesome_f080%280%29_1024.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Entypo_e78e%280%29_1024.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Entypo_d83d%280%29_1024.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Entypo_2796%280%29_1024.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Entypo_2716%281%29_1024.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Entypo_d83d%280%29_10241.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FontAwesome_f155%280%29_1024.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Entypo_2795%280%29_1024.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Entypo_2630%280%29_1024.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FontAwesome_f017%280%29_1024.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Entypo_2630%280%29_10241.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Entypo_2713%280%29_1024.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Entypo_d83d%280%29_10242.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Entypo_d83d%280%29_10243.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Entypo_d83d%280%29_10244.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hihi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plus-loader.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Entypo_d83d%280%29_10245.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Text-Editor_03.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Text-Editor_04.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Text-Editor_05.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Text-Editor_07.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Text-Editor_09.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Text-Editor_11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FontAwesome_f090%280%29_1024.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Entypo_d83d%280%29_10246.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\prog.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\prog1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plus1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\annuler.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kglog.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OBFC0A0.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\woman-working-at-her-office-desk_385-19323848.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

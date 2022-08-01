@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DashBoard", "DashBoard\DashBoard.csproj", "{3C50E9A2-2309-46EB-A745-5B863641C4FE}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Dashboard_setup", "Dashboard_setup\Dashboard_setup.vdproj", "{69E21132-9EB3-4916-8A24-E972F13B5A4D}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "DB", "DB\DB.vdproj", "{B6C1321C-4DDA-4805-A7BC-AB1DA6B97816}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "DASH", "DASH\DASH.vdproj", "{FDF3366F-1047-429B-888A-E49E398ED678}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "DASHBOARDKGL", "DASHBOARDKGL\DASHBOARDKGL.vdproj", "{3F53BC83-E01B-44DF-B5BF-0B255B36D596}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C50E9A2-2309-46EB-A745-5B863641C4FE}.Debug|x86.ActiveCfg = Debug|x86
+		{3C50E9A2-2309-46EB-A745-5B863641C4FE}.Debug|x86.Build.0 = Debug|x86
+		{3C50E9A2-2309-46EB-A745-5B863641C4FE}.Release|x86.ActiveCfg = Release|x86
+		{3C50E9A2-2309-46EB-A745-5B863641C4FE}.Release|x86.Build.0 = Release|x86
+		{69E21132-9EB3-4916-8A24-E972F13B5A4D}.Debug|x86.ActiveCfg = Debug
+		{69E21132-9EB3-4916-8A24-E972F13B5A4D}.Release|x86.ActiveCfg = Release
+		{B6C1321C-4DDA-4805-A7BC-AB1DA6B97816}.Debug|x86.ActiveCfg = Debug
+		{B6C1321C-4DDA-4805-A7BC-AB1DA6B97816}.Release|x86.ActiveCfg = Release
+		{FDF3366F-1047-429B-888A-E49E398ED678}.Debug|x86.ActiveCfg = Debug
+		{FDF3366F-1047-429B-888A-E49E398ED678}.Release|x86.ActiveCfg = Release
+		{3F53BC83-E01B-44DF-B5BF-0B255B36D596}.Debug|x86.ActiveCfg = Debug
+		{3F53BC83-E01B-44DF-B5BF-0B255B36D596}.Release|x86.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
